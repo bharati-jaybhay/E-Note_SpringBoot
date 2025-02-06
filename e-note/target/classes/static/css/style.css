@@ -1,0 +1,113 @@
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.register-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    color: #555555;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+/*  Form of note*/
+:root {
+  --pink-color: #ff385c;
+  --dark-pink-color: #e00b41;
+}
+
+/* Listing form */
+.note-form {
+  width: 60% !important;
+  box-shadow: 0 0 20px rgba(128, 128, 128, 0.708);
+  padding: 3.5em;
+  border-radius: 30px;
+}
+
+.save-btn {
+  border: var(--pink-color);
+  width: 30% !important;
+  font-weight: normal;
+  margin-left: 1em;
+  background-color: var(--pink-color) !important;
+  transition: all 0.25s;
+}
+
+.save-btn:hover {
+  background-color: var(--dark-pink-color) !important;
+  font-weight: bold;
+}
